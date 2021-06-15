@@ -3,3 +3,15 @@
 console.log("Hello World");
 
 let str1 = "welcome to JavaScript";
+
+console.log("Michelle");
+
+console.info("Owens");
+
+console.warn("ST.louis");
+
+console.error("Cancer");
+
+let car = " Audi A5 ";
+let myModel = "A5";
+console.log(`my fav car is ${myCar} and the model is ${myModel}`);
