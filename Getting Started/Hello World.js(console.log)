@@ -1,0 +1,5 @@
+
+//simple console.log() statement
+console.log("Hello World");
+
+let str1 = "welcome to JavaScript";
