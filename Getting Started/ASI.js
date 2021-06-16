@@ -8,7 +8,7 @@
 //2.Have a look at the below code and try to spot where there might be an error:
 
 function sayHello() {
-    return // A semi-colon after return and this will alter the value of the function
+    return; // A semi-colon after return and this will alter the value of the function
     {
       "Someone says hello";
     }
