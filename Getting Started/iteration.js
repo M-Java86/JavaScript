@@ -31,3 +31,11 @@ while (a <= 200) {
 }
 
 //Solution printed out in DevTools console
+
+ //3.   Create a method that can print out the numbers 1-10 10 times each.
+
+ for (let i = 0; i < 10; i++) {
+    for (let j = 1; j <= 10; j++) {
+      console.log(j);
+    }
+ }  
