@@ -38,4 +38,18 @@ while (a <= 200) {
     for (let j = 1; j <= 10; j++) {
       console.log(j);
     }
- }  
+ } 
+ 
+ //4.If you have used a while loop at any point in these exercises, replace them with for loops.
+
+ for (let a = 100; a <= 200; a++) {
+    console.log(`a = ${a}`);
+  }
+  for (let a = 100; a <= 200; a++) {
+    if (a % 2 == 0) {
+      console.log("-");
+    } else {
+      console.log("*");
+    }
+  }
+  
