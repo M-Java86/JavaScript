@@ -52,4 +52,29 @@ while (a <= 200) {
       console.log("*");
     }
   }
+
+  //5.Write a switch case statement which uses the current day as 
+  //its expression and matches with the relevant case. Criteria:
+//Omit a break statement if it is a weekday, until the last day
+//Use a default case to handle an invalid range.
   
+  let day = now.getDay();
+switch (day) {
+    case 0:
+      console.log(`It's Sunday`);
+      break;
+    case 6:
+      console.log(`It's Saturday`);
+      break;
+    case 1:
+      console.log(`It's Monday`);
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+      console.log(`It's a weekday`);
+      break;
+    default:
+      console.log(`Excuse me?`);
+      break;
+  }
