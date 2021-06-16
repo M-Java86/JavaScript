@@ -23,10 +23,11 @@ let myProm = new Promise((reslove, reject)=>{
          resolve("oh no:(") //or to reject it 
          //reject("oh no:(")
 
-    }
-    myProm.then((msg))=>{
-        alert("Hey this worked and we have the following message +msg")
+    //}
+    //myProm.then((msg))=>{
+       // alert("Hey this worked and we have the following message +msg")
 
-    }
-
+    //}
+//Callback
+//A callback is a function that takes in another function as parameter. 
 
