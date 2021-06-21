@@ -7,7 +7,6 @@
 //A Web page is a document. This document can either be displayed in the browser window 
 //or as the HTML source, but it is the same document in both cases. The DOM represents that same document so it can be manipulated / modified with a scripting language, such as JavaScript.
 
-
 'use strict';
 
 let myDogElment = document.querySelector("#dog");
