@@ -1,4 +1,4 @@
-# InfoSys-Front-End
+# InfoSys-Front-End-JavaScript
 
 This repository will look at some of the core functionalities of Web Development 
 
