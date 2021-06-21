@@ -1,23 +1,22 @@
-const params = new URLSearchParams(window.location.search);
-
-const myId = params.get("id");
-
-console.log(myId);
-
 const div = document.querySelector("#records");
 
 axios
-  .get(`http://jsonplaceholder.typicode.com/posts/${myId}`)
+  .get("https://api.openbrewerydb.org/breweries?by_postal=44107")
   .then((response) => {
     console.log(response.data);
+    const data = response.data
 
-    // if (!Array.isArray(response.data) ) {
-    //   printToScreen(response.data);
-    // } else {
-    //   for (let singleRecord of response.data) {
-    //     printToScreen(singleRecord);
-    //   }
-    // }
+    if (!Array.isArray(response.data) ) {
+      printToScreen(response.data);
+    } else {
+      // for (let singleRecord of response.data) {
+      //   printToScreen(singleRecord);
+      // }
+      data.map((item)=>{
+        printToScreen(item)
+      })
+      
+    }
   })
   .catch((err) => {
     console.error(err);
